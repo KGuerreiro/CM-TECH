@@ -21,37 +21,6 @@ Arquitetura do Projeto
 
 O projeto segue uma arquitetura modular organizada da seguinte forma:
 
-src
-└── main
-    └── java
-        └── com
-            └── example
-                └── challenge
-                    ├── data
-                    │   ├── model
-                    │   │   ├── Task.kt
-                    │   │   └── User.kt
-                    │   └── repository
-                    │       └── TaskRepository.kt
-                    ├── network
-                    │   └── ApiService.kt
-                    ├── ui
-                    │   ├── login
-                    │   │   └── LoginScreen.kt
-                    │   ├── tasklist
-                    │   │   └── TaskListScreen.kt
-                    │   ├── taskdetails
-                    │   │   └── TaskDetailScreen.kt
-                    │   ├── taskeditor
-                    │   │   └── TaskEditorScreen.kt
-                    │   └── profile
-                    │       └── UserProfileScreen.kt
-                    └── viewmodel
-                        ├── LoginViewModel.kt
-                        ├── TaskListViewModel.kt
-                        ├── TaskDetailViewModel.kt
-                        ├── TaskEditorViewModel.kt
-                        └── UserProfileViewModel.kt
 
 Tecnologias Utilizadas
 
